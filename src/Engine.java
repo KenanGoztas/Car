@@ -2,6 +2,11 @@ public class Engine {
     private float capacity;
     private int numberOfCylinders;
 
+    public Engine(float capacity, int numberOfCylinders) {
+        this.capacity = capacity;
+        this.numberOfCylinders = numberOfCylinders;
+    }
+
     public int getNumberOfCylinders() {
         return numberOfCylinders;
     }
@@ -19,13 +24,10 @@ public class Engine {
     }
 
     public void start(){
-
     }
     public void brake(){
-
     }
     public void accelerate(){
-
     }
 
 
