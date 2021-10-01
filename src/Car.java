@@ -37,6 +37,14 @@ public class Car {
         this.registrationNum = registrationNum;
     }
 
+    public Engine getEngine() {
+        return engine;
+    }
+
+    public void setEngine(Engine engine) {
+        this.engine = engine;
+    }
+
     public void moveForward(){
 
     }
