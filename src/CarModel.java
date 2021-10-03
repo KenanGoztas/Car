@@ -7,7 +7,8 @@ public class CarModel {
    private ArrayList<Car> myCarList = new ArrayList<>();
 
    public CarModel(String title) {
-      this.title = title;
+
+       this.title = title;
    }
 
    public String getTitle() {
@@ -21,9 +22,8 @@ public class CarModel {
    public ArrayList<Car> getCarList() {
       return myCarList;
    }
-
-   public void addAraba(Car araba) {
-      myCarList.add(araba);
+   public void addCar(Car araba) {
+       myCarList.add(araba);
    }
    public void showInfos (){
       System.out.println("arabanın adı : " + this.title +"\n");

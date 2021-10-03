@@ -1,6 +1,7 @@
 public class Engine {
     private float capacity;
     private int numberOfCylinders;
+    private Car car;
 
     public Engine(float capacity, int numberOfCylinders) {
         this.capacity = capacity;
@@ -21,6 +22,14 @@ public class Engine {
 
     public void setCapacity(float capacity) {
         this.capacity = capacity;
+    }
+
+    public Car getCar() {
+        return car;
+    }
+
+    public void setCar(Car car) {
+        this.car = car;
     }
 
     public void start(){
